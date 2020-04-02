@@ -50,8 +50,23 @@ img {
   /* vertical-align: middle; */
   border: 0;
 }
+
+/* .v-note-panel {
+  background-color: #fff !important;
+} */
 .v-note-show {
-  font-size: 20px;
+  font-size: 15px;
+}
+.markdown-body {
+  font-family: none !important;
+}
+.v-note-wrapper {
+  border: none !important;
+  padding: 5px;
+}
+
+.v-show-content {
+  background-color: #fff !important;
 }
 .fa {
   margin: 5px 0 5px 0;
