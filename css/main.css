@@ -68,31 +68,3 @@ img {
 .v-show-content {
   background-color: #fff !important;
 }
-.fa {
-  margin: 5px 0 5px 0;
-  opacity: 0;
-  animation-name: ddd;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-@keyframes ddd {
-  0% {
-    opacity: 0;
-    transform: scale3d(0.1, 0.1, 0.1);
-    transform: translateX(-30px);
-    box-shadow: 0 0 12px rgba(112, 146, 209, 0.815), 0 0 18px rgba(0, 140, 255, 1);
-    /*初始状态 透明度为0*/
-  }
-
-  100% {
-    opacity: 1;
-    /* box-shadow: 0 0 12px rgba(72, 106, 170, 0.5); */
-    border-color: rgba(107, 142, 206, 0.5);
-    /* transform: scale3d(1, 1, 1); */
-    /* transform:scale(0.9); */
-    /* transform: translateX(-10px); */
-    /*结尾状态 透明度为1*/
-  }
-}
